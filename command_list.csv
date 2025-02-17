@@ -1,0 +1,190 @@
+    1  cd
+    2  cd/c/User/<UserName>/Documents
+    3  cd
+    4  cd/c/Olga/<Репозиторій Git>/Document
+    5  cd /c/User/Olga/<Репозиторій Git>/Document
+    6  cd /d/Репозиторій Git
+    7  git config
+    8  git config user.name,user.email
+    9  git clone https://github.com/Oladok009/HW_10.git
+   10  cd repo
+   11  cd HW_10
+   12  touch file.txt_ignore
+   13  touch file.text_ignore.txt
+   14  cp file.text_ignore.txt .gitignore
+   15  git status
+   16  git add
+   17  commit
+   18  git commit -m "Task1"
+   19  touch file.main_test.txt
+   20  git add
+   21  git add .
+   22  git commit -m "Task2"
+   23  git confit --global user.email "matsyk777@gmail.com"
+   24  git --help
+   25  git config --global user.email "matsyk777@gmail.com"
+   26  git commit -m "Task2"
+   27  git config --global user.name "Oladok009"
+   28  git commit -m "Task2"
+   29  git branch develop
+   30  git checkout develop
+   31  touch.file.develop_test.txt
+   32  touch file.develop_test.txt
+   33  git add .
+   34  git commit -m "Task3"
+   35  echo "just a small change" >>develop_test.txt
+   36  git status
+   37  git add .
+   38  git commit -m "Task3"
+   39  git checkout main
+   40  git merge develop
+   41  git log
+   42  history > command_list.csv
+   43  git add .
+   44  git commit -m "Task5"
+   45  git push
+   46  git commmiy -m "Task5"
+   47  touch command_list.cvs
+   48  git commit -m "Task5"
+   49  git log
+   50  git checkout main
+   51  git checkout branch_main
+   52  git checkout branch main
+   53  git clone "Репозиторій"
+   54  git clone https://github.com/Oladok009/HW_10-.git
+   55  cd Репозиторій
+   56  cd repository
+   57  git status
+   58  touch text_ignore.txt
+   59  nano .gitignore.txt
+   60  git status
+   61  git add .
+   62  git commit -m "Task 1"
+   63  touch main_test.txt
+   64  git add .
+   65  git commit -m "Task 2"
+   66  git branch develop
+   67  git checkout develop
+   68  git branch "develop"
+   69  git checkout --orpha new_branch
+   70  git push --force --all
+   71  git clone HW_10
+   72  git clone https://github.com/Oladok009/HW_10.git
+   73  cd HW_10
+   74  touch text_ignore.txt
+   75  nano text_ignore.txt
+   76  git status
+   77  git add.
+   78  git add .
+   79  git commit -m "Task 1"
+   80  touch main_test.txt
+   81  git add .
+   82  git commiy -m "Task 2"
+   83  git commit -m "Task 2"
+   84  git branch develop
+   85  git checkout develop
+   86  touch develop_test.txt
+   87  git add .
+   88  git commit -m "Task 3"
+   89  nano develop_test.txt
+   90  git status
+   91  git add .
+   92  git commit -m "Task 3"
+   93  git checkout main
+   94  git merge develop
+   95  git log
+   96  history > command_list.csv
+   97  git add .
+   98  git commit -m "Task 5"
+   99  git push
+  100  touch command_list.csv
+  101  git add command_list.csv
+  102  echo "command,description" > command_list.csv
+  103  git add command_list.csv
+  104  git commit -m "Add command_list.csv"
+  105  git add command_list.csv
+  106  git commit -m "Add command_list.csv"
+  107  git push
+  108  git push 
+  109  git clone HW_10
+  110  git clone https://github.com/Oladok009/HW_10.git 
+  111  cd clone HW_10
+  112  cd HW_10
+  113  clear
+  114  config --global user.name "Oladok009"
+  115  nano ~/.gitconfig
+  116  clear
+  117  git clone https://github.com/Oladok009/HW_10.git 
+  118  cd HW_10
+  119  touch text_ignore.txt
+  120  nano .gitignore
+  121  nano text_ignore.txt
+  122  git status
+  123  git add .
+  124  git commit -m "Task1"
+  125  touch main_test.txt
+  126  git add .
+  127  git commit -m "Task2"
+  128  git branch develop
+  129  git checkout develop
+  130  touch develop_test.txt
+  131  git add .
+  132  git commit -m "Task3"
+  133  nano develop_test.txt
+  134  nano text_ignore.txt
+  135  git status
+  136  git add .
+  137  git commit -m "task3"
+  138  git checkout main
+  139  git merge develop
+  140  git log
+  141  history > command_lidt.csv
+  142  git add .
+  143  git commit -m "Task5"
+  144  git push
+  145  touch command_list.csv
+  146  echo "command,description" > command_list.csv
+  147  git add command_list.csv
+  148  git commit -m "Add command_list.csv
+  149  '"
+  150  git commit -m "Add command_list.csv"
+  151  git push
+  152  touch command_list.csv
+  153  git push
+  154  git remote add origin https://github.com/Oladok009/HW_10.git 
+  155  git push origin main
+  156  git add .
+  157  git commit -m "Task5"
+  158  git push
+  159  git merge develop
+  160  git push
+  161  git pull
+  162  git push
+  163  clear
+  164  git config --global user.name "Oladok009"
+  165  git config --global user.email "matsyk777@gmail.com"
+  166  git clone HW_10
+  167  git clone https://github.com/Oladok009/HW_10.git 
+  168  cd HW_10
+  169  touch text_ignore.txt
+  170  nano text_ignore.txt
+  171  git status
+  172  git add .
+  173  git commit -m "Task1"
+  174  touch main_test.txt
+  175  git add .
+  176  git commit -m "Task2"
+  177  git branch develop
+  178  git checkout develop
+  179  youch develop_test.txt
+  180  touch develop_test.txt
+  181  git add .
+  182  git commit -m "Task3"
+  183  nano develop_test.txt
+  184  git status
+  185  git add .
+  186  git commit -m "Task3"
+  187  git checkout main
+  188  git merge develop
+  189  git log
+  190  history > command_list.csv
